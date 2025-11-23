@@ -12,7 +12,3 @@ services:
       - key: PORT
         value: 10000
     autoDeploy: true
-
-  # Frontend Service (Static Site) - Optional if serving from backend
-  # Since the backend serves the frontend in production (server.js lines 24-30),
-  # we only need one service! The 'buildCommand' above handles building both.
