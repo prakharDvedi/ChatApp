@@ -48,7 +48,7 @@ function LoginPage() {
                           setFormData({ ...formData, email: e.target.value })
                         }
                         className="input"
-                        placeholder="johndoe@gmail.com"
+                        placeholder="charlieKirk@gmail.com"
                       />
                     </div>
                   </div>
